@@ -9,6 +9,7 @@ html{
 }
 header{
     display: flex;
+    height: 300px;
     justify-content: center;
     align-items: center;
     background-image: url("istockphoto-859255062-612x612.jpg");
