@@ -1,0 +1,103 @@
+/* Reset some default styles for cross-browser consistency */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("istockphoto-859255062-612x612.jpg");
+    /* filter: blur(8px); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+/* Style the header */
+
+  
+  /* Position text in the middle of the page/image */
+  h1{
+    color: white;
+    font-weight: bold;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    animation: textAnimation 2s ease infinite alternate;
+    z-index: 99;
+  }
+
+
+@keyframes textAnimation {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.09);
+    }
+}
+
+/* Style the navigation menu */
+nav {
+    background-color: #333;
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the sections */
+section {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+}
+.bildes{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(1, 200px);
+    gap: 70px;
+}
+img{
+    border-radius: 7px;
+    animation: textAnimation 2s ease infinite alternate;
+    height: 200px;
+    width: 150px;
+    
+}
