@@ -90,10 +90,11 @@ footer {
     color: #fff;
 }
 .bildes{
+    margin: 40px;
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(1, 200px);
-    gap: 70px;
+    gap: 90px;
 }
 img{
     border-radius: 7px;
